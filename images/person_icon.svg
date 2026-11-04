@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 165 154" width="165" height="154" fill="none">
+  <title>Person alert icon</title>
+  <circle cx="74" cy="52" r="14" stroke="#000" stroke-width="7.5"/>
+  <path d="M42 99 V92 C42 75 106 75 106 92 V101 H42 Z" stroke="#000" stroke-width="7.5" stroke-linejoin="miter"/>
+  <path d="M122 48 V75" stroke="#000" stroke-width="8" stroke-linecap="butt"/>
+  <rect x="118" y="84" width="8" height="8" fill="#000"/>
+</svg>
