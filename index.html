@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Furniro-Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.svg" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -46,8 +47,32 @@
             </a></li>
         </ul>
 
-    </nav>
-    </header>
+        
+<!-- Mobile Menu -->
+<div class="mobile-menu">
+
+    <!-- Hamburger Button -->
+    <button class="mobile-menu-toggle" type="button"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false">
+        <img src="images/hamburger.svg" alt="">
+    </button>
+
+    <!-- Mobile Links -->
+    <div class="mobile-menu-items">
+        <ul class="mobile-menu-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+</div>
+
+
+</nav>
+</header>
 
     <main>
         <!-- Hero Section-->
@@ -350,5 +375,7 @@
     <div class="footer-bottom">
         <p>2023 furniro. All rights reserved</p>
     </div>
-
+<script src="script.js"></script>
 </footer>
+</body>
+</html>
