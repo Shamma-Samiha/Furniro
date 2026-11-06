@@ -304,7 +304,7 @@ a {
     height: 48px;
     right: 24px;
     top: 24px;
-    padding: 10px 8.5px;
+    padding: 10px 7px;
     z-index: 50;
 
 }
@@ -321,9 +321,29 @@ a {
     height: 48px;
     right: 24px;
     top: 24px;
-    padding: 10px 8.5px;
+    padding: 10px 3px;
     z-index: 50;
 
+}
+
+.product-price {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.product-price h4 {
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: 600;
+    color: #3a3a3a;
+}
+
+.product-price del {
+    color: #b0b0b0;
+    font-size: 16px;
+    font-weight: 400;
+    white-space: nowrap;    
 }
 
 /* 'Show More' Button */
