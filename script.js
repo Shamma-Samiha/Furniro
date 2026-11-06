@@ -6,6 +6,5 @@ document.addEventListener('DOMContentLoaded', function () {
     toggleButton.addEventListener('click', function () {
         mobileMenu.classList.toggle('active');
     });
-
 });
 
